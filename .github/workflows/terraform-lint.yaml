@@ -2,11 +2,6 @@ name: terraform-lint
 
 on:
   workflow_call:
-    inputs:
-      yamllint-path:
-        default: ""
-        description: "Path to custom yamllint file"
-        type: string
 
 jobs:
   lint:
