@@ -1,0 +1,20 @@
+name: ansible-test
+
+on:
+  workflow_call:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: install dependencies
+        run: sudo apt-get install -y ansible ansible-lint yamllint
+
+      - name: install python modules
+        run: pip3 install ansible-dev-tools "molecule-plugins[podman]" --break-system-packages
+
+      - name: run molecule test
+        run: molecule test
