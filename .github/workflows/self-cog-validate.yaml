@@ -1,4 +1,4 @@
-name: validate-conventional-commits
+name: self-validate-conventional-commits
 
 on: [push]
 
