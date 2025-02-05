@@ -1,0 +1,9 @@
+name: validate-conventional-commits
+
+on: [push]
+
+jobs:
+  check:
+    uses: ./.github/workflows/cog-validate.yaml
+    with:
+      check-latest-tag-only: false

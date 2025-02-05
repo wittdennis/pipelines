@@ -1,0 +1,23 @@
+name: validate-conventional-commits
+
+on:
+  workflow_call:
+    inputs:
+      check-latest-tag-only:
+        required: false
+        type: boolean
+        description: Name of the docker image to build
+        default: false
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Conventional commits check
+        uses: oknozor/cocogitto-action@v3.10
+        with:
+          check-latest-tag-only: ${{ inputs.check-latest-tag-only }}

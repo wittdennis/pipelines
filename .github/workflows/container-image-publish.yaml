@@ -1,0 +1,102 @@
+name: publish-image
+
+on:
+  workflow_call:
+    inputs:
+      image-name:
+        required: true
+        type: string
+        description: Name of the docker image to build
+      registry:
+        type: string
+        default: docker.io
+        description: Name of the docker registry to use
+      registry-username:
+        type: string
+        default: denniswitt
+        description: Name of the docker registry user to use
+      build-args:
+        type: string
+        default: ""
+        description: Build args to pass in form of yaml content each arg seperated by a new line
+      amd64-build-args:
+        type: string
+        default: ""
+        description: Build args that are only passed to the amd64 platform build
+      arm64-build-args:
+        type: string
+        default: ""
+        description: Build args that are only passed to the arm64 platform build
+    secrets:
+      registry-password:
+        required: true
+        description: Password or token to authenticate against docker registry
+
+jobs:
+  build:
+    uses: ./.github/workflows/container-image-build.yaml
+    with:
+      image-name: ${{ inputs.image-name }}
+      create-artifacts: true
+      registry: ${{ inputs.registry }}
+      build-args: ${{ inputs.build-args }}
+      registry-username: ${{ inputs.registry-username }}
+      amd64-build-args: ${{ inputs.amd64-build-args }}
+      arm64-build-args: ${{ inputs.arm64-build-args }}
+
+  publish:
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4.1.8
+        with:
+          name: ${{ github.sha }}-amd64
+          path: /tmp
+
+      - uses: actions/download-artifact@v4.1.8
+        with:
+          name: ${{ github.sha }}-arm64
+          path: /tmp
+
+      - uses: docker/metadata-action@v5
+        id: meta
+        name: Set image metadata
+        with:
+          images: ${{ inputs.registry }}/${{ inputs.registry-username }}/${{ inputs.image-name }}
+          tags: |
+            type=schedule
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+            type=ref,event=branch
+            type=sha
+          flavor: |
+            latest=true
+
+      - name: Create manifest
+        run: |
+          podman manifest create ${REGISTRY}/${IMAGE_NAME}:manifest
+          podman manifest add ${REGISTRY}/${IMAGE_NAME}:manifest oci-archive:/tmp/${COMMIT_SHA}-amd64-oci.tar
+          podman manifest add ${REGISTRY}/${IMAGE_NAME}:manifest oci-archive:/tmp/${COMMIT_SHA}-arm64-oci.tar
+
+          podman tag ${REGISTRY}/${IMAGE_NAME}:manifest $(echo "${{ steps.meta.outputs.tags }}" | tr '\n' ' ')
+        env:
+          REGISTRY: ${{ inputs.registry }}/${{ inputs.registry-username }}
+          IMAGE_NAME: ${{ inputs.image-name }}
+          COMMIT_SHA: ${{ github.sha }}
+
+      - uses: docker/login-action@v3.3.0
+        name: docker login
+        with:
+          username: ${{ inputs.registry-username }}
+          password: ${{ secrets.registry-password }}
+
+      - uses: redhat-actions/push-to-registry@v2.8
+        name: Push image
+        id: push
+        with:
+          tags: ${{ steps.meta.outputs.tags }}
+
+      - name: Echo image url
+        run: |
+          echo "Image pushed to ${{ steps.push.outputs.registry-paths }}"

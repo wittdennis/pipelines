@@ -1,0 +1,102 @@
+name: build-image
+
+on:
+  workflow_call:
+    inputs:
+      image-name:
+        required: true
+        type: string
+        description: Name of the docker image to build
+      registry:
+        type: string
+        default: docker.io
+        description: Name of the docker registry to use
+      registry-username:
+        type: string
+        default: denniswitt
+        description: Name of the docker registry user to use
+      create-artifacts:
+        type: boolean
+        default: true
+        description: Wheter or not github artifacts for images should be created
+      build-args:
+        type: string
+        default: ""
+        description: Build args to pass in form of yaml content each arg seperated by a new line
+      amd64-build-args:
+        type: string
+        default: ""
+        description: Build args that are only passed to the amd64 platform build
+      arm64-build-args:
+        type: string
+        default: ""
+        description: Build args that are only passed to the arm64 platform build
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        platform: [linux/amd64, linux/arm64]
+        include:
+          - platform: linux/amd64
+            build-args: ${{ inputs.amd64-build-args }}
+          - platform: linux/arm64
+            build-args: ${{ inputs.arm64-build-args }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: cache podman storage
+        uses: actions/cache@v4.2.0
+        with:
+          path: ~/.local/share/containers/storage
+          key: podman-storage-${{ matrix.platform }}
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3.3.0
+
+      - name: export architecture name (removing os prefix)
+        run: |
+          echo "PODMAN_ARCH=${PLATFORM#*/}" >>${GITHUB_ENV}
+        env:
+          PLATFORM: ${{ matrix.platform }}
+
+      - uses: docker/metadata-action@v5
+        id: meta
+        name: Set image metadata
+        with:
+          images: ${{ inputs.registry }}/${{ inputs.registry-username }}/${{ inputs.image-name }}
+          tags: |
+            type=sha,format=long
+          flavor: |
+            suffix=-${{ env.PODMAN_ARCH }}
+
+      - name: Build Image
+        id: build-image
+        uses: redhat-actions/buildah-build@v2
+        with:
+          image: ${{ inputs.image-name }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            ${{ matrix.build-args }}
+            ${{ inputs.build-args }}
+          oci: true
+          containerfiles: |
+            ./Dockerfile
+          platforms: ${{ matrix.platform }}
+
+      - name: Copy image to file
+        run: |
+          podman save ${{ inputs.registry }}/${{ inputs.registry-username }}/${{ inputs.image-name }}:sha-${{ github.sha }}-${{ env.PODMAN_ARCH }} \
+            --format oci-archive \
+            -o /tmp/${{ github.sha }}-${{ env.PODMAN_ARCH }}-oci.tar
+
+      - name: Upload digest
+        uses: actions/upload-artifact@v4.6.0
+        if: ${{ inputs.create-artifacts }}
+        with:
+          name: ${{ github.sha }}-${{ env.PODMAN_ARCH }}
+          path: /tmp/${{ github.sha }}-${{ env.PODMAN_ARCH }}-oci.tar
+          if-no-files-found: error
+          retention-days: 1

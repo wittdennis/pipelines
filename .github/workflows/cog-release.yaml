@@ -1,7 +1,10 @@
-name: github-release
+name: release
 
 on:
-  workflow_dispatch:
+  workflow_call:
+    secrets:
+      release-token:
+        description: The token to use for the github release
 
 jobs:
   release:
@@ -10,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.RELEASE_TOKEN }}
+          token: ${{ secrets.release-token }}
 
       - name: setup git config
         run: |
@@ -19,10 +22,9 @@ jobs:
 
       - name: bump version
         id: release
-        uses: oknozor/cocogitto-action@v3.9
+        uses: oknozor/cocogitto-action@v3.10
         with:
           release: true
-          check-latest-tag-only: true
           git-user: github-actions
           git-user-email: github-actions@github.com
 
@@ -34,4 +36,4 @@ jobs:
         with:
           body_path: GITHUB_CHANGELOG.md
           tag_name: ${{ steps.release.outputs.version }}
-          token: ${{ secrets.RELEASE_TOKEN }}
+          token: ${{ secrets.release-token }}
