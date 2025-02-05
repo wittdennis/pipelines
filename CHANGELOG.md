@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.1.0](https://github.com/wittdennis/pipelines/compare/699883ef312d2eb6112c78ccc47c088e42b84474..1.1.0) - 2025-02-05
+#### Continuous Integration
+- set different names for repository own workflows - ([3218c1e](https://github.com/wittdennis/pipelines/commit/3218c1e040e803ff6a925c3d1fe74391f8cc9c13)) - Dennis Witt
+#### Features
+- add terraform and yaml lint workflows - ([699883e](https://github.com/wittdennis/pipelines/commit/699883ef312d2eb6112c78ccc47c088e42b84474)) - Dennis Witt
+
+- - -
+
 ## [1.0.0](https://github.com/wittdennis/pipelines/compare/cabb43edc4d066959f75c1b8c454c709d112914b..1.0.0) - 2025-02-05
 #### Features
 - add workflows - ([92cd6c2](https://github.com/wittdennis/pipelines/commit/92cd6c29563805217d1e979c0439f174e181b740)) - Dennis Witt
