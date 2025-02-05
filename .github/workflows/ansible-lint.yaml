@@ -2,6 +2,11 @@ name: ansible-lint
 
 on:
   workflow_call:
+    inputs:
+      requirements-file:
+        default: ""
+        description: "Path to ansible requirements file to install dependencies"
+        type: string
 
 jobs:
   lint:
@@ -10,3 +15,5 @@ jobs:
       - uses: actions/checkout@v4.2.2
       - name: lint
         uses: ansible/ansible-lint@v25.1.2
+        with:
+          requirements_file: ${{ inputs.requirements-file }}
