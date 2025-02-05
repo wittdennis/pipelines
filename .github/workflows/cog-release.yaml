@@ -5,6 +5,7 @@ on:
     secrets:
       release-token:
         description: The token to use for the github release
+        required: true
 
 jobs:
   release:
