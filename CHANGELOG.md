@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.4.0](https://github.com/wittdennis/pipelines/compare/f763b94f43971dedecc957f0e1f2372b70e1902e..1.4.0) - 2025-02-05
+#### Features
+- add ansible test workflow - ([f763b94](https://github.com/wittdennis/pipelines/commit/f763b94f43971dedecc957f0e1f2372b70e1902e)) - Dennis Witt
+
+- - -
+
 ## [1.3.1](https://github.com/wittdennis/pipelines/compare/8ce300240112689b1ff51e9702a966e0c6864120..1.3.1) - 2025-02-05
 #### Bug Fixes
 - set release token for release workflow to required - ([8ce3002](https://github.com/wittdennis/pipelines/commit/8ce300240112689b1ff51e9702a966e0c6864120)) - Dennis Witt
