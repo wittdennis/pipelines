@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.3.0](https://github.com/wittdennis/pipelines/compare/e2b16f25760d43819af5224e4e14ef18ef6edc79..1.3.0) - 2025-02-05
+#### Features
+- add workflow to publish ansible role - ([e2b16f2](https://github.com/wittdennis/pipelines/commit/e2b16f25760d43819af5224e4e14ef18ef6edc79)) - Dennis Witt
+
+- - -
+
 ## [1.2.1](https://github.com/wittdennis/pipelines/compare/c3346e227441632e713805d7995e42ea1642d586..1.2.1) - 2025-02-05
 #### Bug Fixes
 - remove unsused yamllint-path from terraform lint job - ([c3346e2](https://github.com/wittdennis/pipelines/commit/c3346e227441632e713805d7995e42ea1642d586)) - Dennis Witt
