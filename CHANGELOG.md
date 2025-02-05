@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.2.1](https://github.com/wittdennis/pipelines/compare/c3346e227441632e713805d7995e42ea1642d586..1.2.1) - 2025-02-05
+#### Bug Fixes
+- remove unsused yamllint-path from terraform lint job - ([c3346e2](https://github.com/wittdennis/pipelines/commit/c3346e227441632e713805d7995e42ea1642d586)) - Dennis Witt
+
+- - -
+
 ## [1.2.0](https://github.com/wittdennis/pipelines/compare/4903ab8912d8f15ace19e01671ace8391223731a..1.2.0) - 2025-02-05
 #### Features
 - add possibility to define requirements file for ansible lint - ([4903ab8](https://github.com/wittdennis/pipelines/commit/4903ab8912d8f15ace19e01671ace8391223731a)) - Dennis Witt
