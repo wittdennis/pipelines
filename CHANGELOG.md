@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.2.0](https://github.com/wittdennis/pipelines/compare/4903ab8912d8f15ace19e01671ace8391223731a..1.2.0) - 2025-02-05
+#### Features
+- add possibility to define requirements file for ansible lint - ([4903ab8](https://github.com/wittdennis/pipelines/commit/4903ab8912d8f15ace19e01671ace8391223731a)) - Dennis Witt
+
+- - -
+
 ## [1.1.0](https://github.com/wittdennis/pipelines/compare/699883ef312d2eb6112c78ccc47c088e42b84474..1.1.0) - 2025-02-05
 #### Continuous Integration
 - set different names for repository own workflows - ([3218c1e](https://github.com/wittdennis/pipelines/commit/3218c1e040e803ff6a925c3d1fe74391f8cc9c13)) - Dennis Witt
