@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.5.0](https://github.com/wittdennis/pipelines/compare/5f0f76e7aa9168f390f6866caec6ae05ed484077..1.5.0) - 2025-02-06
+#### Features
+- add ability to check only from the latest tag onward on cog release - ([5f0f76e](https://github.com/wittdennis/pipelines/commit/5f0f76e7aa9168f390f6866caec6ae05ed484077)) - Dennis Witt
+
+- - -
+
 ## [1.4.0](https://github.com/wittdennis/pipelines/compare/f763b94f43971dedecc957f0e1f2372b70e1902e..1.4.0) - 2025-02-05
 #### Features
 - add ansible test workflow - ([f763b94](https://github.com/wittdennis/pipelines/commit/f763b94f43971dedecc957f0e1f2372b70e1902e)) - Dennis Witt
