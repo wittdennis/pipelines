@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.6.0](https://github.com/wittdennis/pipelines/compare/ddfef42ee29c82c014ecf00ff73a101d1e9cbf8c..1.6.0) - 2025-02-06
+#### Features
+- add go lint - ([ddfef42](https://github.com/wittdennis/pipelines/commit/ddfef42ee29c82c014ecf00ff73a101d1e9cbf8c)) - Dennis Witt
+
+- - -
+
 ## [1.5.0](https://github.com/wittdennis/pipelines/compare/5f0f76e7aa9168f390f6866caec6ae05ed484077..1.5.0) - 2025-02-06
 #### Features
 - add ability to check only from the latest tag onward on cog release - ([5f0f76e](https://github.com/wittdennis/pipelines/commit/5f0f76e7aa9168f390f6866caec6ae05ed484077)) - Dennis Witt
