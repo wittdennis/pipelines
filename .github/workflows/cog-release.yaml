@@ -2,6 +2,11 @@ name: release
 
 on:
   workflow_call:
+    inputs:
+      check-latest-tag-only:
+        default: false
+        type: boolean
+        description: "Only check commits from the latest tag onwards"
     secrets:
       release-token:
         description: The token to use for the github release
@@ -28,6 +33,7 @@ jobs:
           release: true
           git-user: github-actions
           git-user-email: github-actions@github.com
+          check-latest-tag-only: ${{ inputs.check-latest-tag-only }}
 
       - name: generate changelog
         run: cog changelog --at ${{ steps.release.outputs.version }} > GITHUB_CHANGELOG.md
