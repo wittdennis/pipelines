@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.7.0](https://github.com/wittdennis/pipelines/compare/ad261e98d7fcca62e9dbbc00055cfc7dd9c5cbe9..1.7.0) - 2025-02-06
+#### Features
+- add ability to add files on release pipeline - ([ad261e9](https://github.com/wittdennis/pipelines/commit/ad261e98d7fcca62e9dbbc00055cfc7dd9c5cbe9)) - Dennis Witt
+
+- - -
+
 ## [1.6.0](https://github.com/wittdennis/pipelines/compare/ddfef42ee29c82c014ecf00ff73a101d1e9cbf8c..1.6.0) - 2025-02-06
 #### Features
 - add go lint - ([ddfef42](https://github.com/wittdennis/pipelines/commit/ddfef42ee29c82c014ecf00ff73a101d1e9cbf8c)) - Dennis Witt
