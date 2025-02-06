@@ -31,6 +31,13 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
+      - name: install goreleaser
+        uses: goreleaser/goreleaser-action@v6.1.0
+        with:
+          install-only: true
+          distribution: goreleaser
+          version: "v2.6.1" # renovate: datasource=github-releases depName=goreleaser/goreleaser versioning=semver
+
       - name: bump version
         id: release
         uses: oknozor/cocogitto-action@v3.10

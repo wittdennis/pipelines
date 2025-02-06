@@ -12,6 +12,11 @@
     {
       "matchDepNames": ["golangci/golangci-lint"],
       "semanticCommitType": "fix"
+    },
+    {
+      "matchDepNames": ["goreleaser/goreleaser"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
     }
   ]
 }
