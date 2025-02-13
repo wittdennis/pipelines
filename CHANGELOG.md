@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.8.1](https://github.com/wittdennis/pipelines/compare/143287bb3fb651b340fb6dec008a20c81e83bd70..1.8.1) - 2025-02-13
+#### Bug Fixes
+- **(deps)** update dependency golangci/golangci-lint to v1.64.4 - ([b1ef7c7](https://github.com/wittdennis/pipelines/commit/b1ef7c7295ffabcc4f23e2291f8df6e8716be307)) - wittdennis-renovate[bot]
+- **(deps)** update dependency golangci/golangci-lint to v1.64.2 - ([5c7267a](https://github.com/wittdennis/pipelines/commit/5c7267acdde00d90fd217f35e9e18c285da25801)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- **(deps)** update goreleaser/goreleaser-action action to v6.2.1 - ([93a0f4b](https://github.com/wittdennis/pipelines/commit/93a0f4bcea05f486fcf9041b9d6780ca83bba362)) - wittdennis-renovate[bot]
+- **(deps)** update golangci/golangci-lint-action action to v6.3.2 - ([d5ae0ca](https://github.com/wittdennis/pipelines/commit/d5ae0caaed807a110211d40cae55ffdfb13ed692)) - wittdennis-renovate[bot]
+- **(deps)** update golangci/golangci-lint-action action to v6.3.1 - ([14640f9](https://github.com/wittdennis/pipelines/commit/14640f9650394710f5bcb16e7540d0e6bb382483)) - wittdennis-renovate[bot]
+- **(deps)** update docker/setup-qemu-action action to v3.4.0 - ([143287b](https://github.com/wittdennis/pipelines/commit/143287bb3fb651b340fb6dec008a20c81e83bd70)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- **(deps)** update dependency goreleaser/goreleaser to v2.7.0 - ([2106aa4](https://github.com/wittdennis/pipelines/commit/2106aa4f43a96c8019b79387861f1a61b5b39bfd)) - wittdennis-renovate[bot]
+- set semantic commit type for github actions - ([d79e8b8](https://github.com/wittdennis/pipelines/commit/d79e8b8e80ace265197d5a497421e75cd889a2bd)) - Dennis Witt
+- set commit type and automerge for golangci - ([688554e](https://github.com/wittdennis/pipelines/commit/688554e37863487748da6fc04a0a0225a4a316f4)) - Dennis Witt
+
+- - -
+
 ## [1.8.0](https://github.com/wittdennis/pipelines/compare/c9a06a2845d140445668e8ccec5b3fbd0a22f908..1.8.0) - 2025-02-06
 #### Features
 - install goreleaser in release pipeline - ([c9a06a2](https://github.com/wittdennis/pipelines/commit/c9a06a2845d140445668e8ccec5b3fbd0a22f908)) - Dennis Witt
