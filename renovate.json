@@ -6,7 +6,7 @@
       "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
       "(^|/)action\\.ya?ml$"
     ],
-    "extends": [":semanticCommitTypeAll(fix)"]
+    "semanticCommitType": "fix"
   },
   "packageRules": [
     {
