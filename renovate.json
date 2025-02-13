@@ -10,11 +10,11 @@
   },
   "packageRules": [
     {
-      "matchDepNames": ["golangci/golangci-lint"],
+      "matchDepNames": ["golangci/golangci-lint", "goreleaser/goreleaser"],
       "semanticCommitType": "fix"
     },
     {
-      "matchDepNames": ["goreleaser/goreleaser"],
+      "matchDepNames": ["golangci/golangci-lint", "goreleaser/goreleaser"],
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }
