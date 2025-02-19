@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.10.1](https://github.com/wittdennis/pipelines/compare/247751d6cf25a5aa7ec93322b21f52180f5455a9..1.10.1) - 2025-02-19
+#### Bug Fixes
+- trimpath typo in go build - ([247751d](https://github.com/wittdennis/pipelines/commit/247751d6cf25a5aa7ec93322b21f52180f5455a9)) - Dennis Witt
+
+- - -
+
 ## [1.10.0](https://github.com/wittdennis/pipelines/compare/98947bb2e1712b1280344f568f275ec0ed06a978..1.10.0) - 2025-02-19
 #### Features
 - add go build task - ([98947bb](https://github.com/wittdennis/pipelines/commit/98947bb2e1712b1280344f568f275ec0ed06a978)) - Dennis Witt
