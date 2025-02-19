@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.9.0](https://github.com/wittdennis/pipelines/compare/512564d8057f2960318ae5fb4f821d9c18fe7576..1.9.0) - 2025-02-19
+#### Features
+- set working-directory for go-lint - ([512564d](https://github.com/wittdennis/pipelines/commit/512564d8057f2960318ae5fb4f821d9c18fe7576)) - Dennis Witt
+
+- - -
+
 ## [1.8.2](https://github.com/wittdennis/pipelines/compare/750615e84a4e7985b40db03ce3a38b8e00aed442..1.8.2) - 2025-02-14
 #### Bug Fixes
 - **(deps)** update dependency golangci/golangci-lint to v1.64.5 - ([750615e](https://github.com/wittdennis/pipelines/commit/750615e84a4e7985b40db03ce3a38b8e00aed442)) - wittdennis-renovate[bot]
