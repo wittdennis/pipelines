@@ -38,6 +38,6 @@ jobs:
 
       - name: build
         working-directory: ${{ inputs.working-directory }}
-        run: go build -ldflags "${{ inputs.ldflags }}" -timpath -o 'bin/' ./...
+        run: go build -ldflags "${{ inputs.ldflags }}" -trimpath -o 'bin/' ./...
         env:
           CGO_ENABLED: ${{ inputs.cgo-enabled && '1' || '0' }}
