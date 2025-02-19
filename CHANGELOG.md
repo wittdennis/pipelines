@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.10.0](https://github.com/wittdennis/pipelines/compare/98947bb2e1712b1280344f568f275ec0ed06a978..1.10.0) - 2025-02-19
+#### Features
+- add go build task - ([98947bb](https://github.com/wittdennis/pipelines/commit/98947bb2e1712b1280344f568f275ec0ed06a978)) - Dennis Witt
+
+- - -
+
 ## [1.9.0](https://github.com/wittdennis/pipelines/compare/512564d8057f2960318ae5fb4f821d9c18fe7576..1.9.0) - 2025-02-19
 #### Features
 - set working-directory for go-lint - ([512564d](https://github.com/wittdennis/pipelines/commit/512564d8057f2960318ae5fb4f821d9c18fe7576)) - Dennis Witt
