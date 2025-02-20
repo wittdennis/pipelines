@@ -29,7 +29,7 @@ jobs:
           cache: false
 
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v6.4.0
+        uses: golangci/golangci-lint-action@v6.4.1
         with:
           version: ${{ inputs.golangci-version }}
           working-directory: ${{ inputs.working-directory }}
