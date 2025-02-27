@@ -5,10 +5,6 @@
     {
       "matchFileNames": [".github/workflows/*.yaml"],
       "semanticCommitType": "fix"
-    },
-    {
-      "matchUpdateTypes": ["patch"],
-      "automerge": true
     }
   ]
 }
