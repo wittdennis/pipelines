@@ -47,7 +47,7 @@ jobs:
       - uses: actions/checkout@v4.2.2
 
       - name: cache podman storage
-        uses: actions/cache@v4.2.0
+        uses: actions/cache@v4.2.1
         with:
           path: ~/.local/share/containers/storage
           key: podman-storage-${{ matrix.platform }}
