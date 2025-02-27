@@ -1,20 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>wittdennis/renovate-config"],
-  "github-actions": {
-    "fileMatch": [
-      "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
-      "(^|/)action\\.ya?ml$"
-    ],
-    "extends": [":semanticCommitTypeAll(fix)"]
-  },
   "packageRules": [
     {
-      "matchDepNames": ["golangci/golangci-lint", "goreleaser/goreleaser"],
+      "matchFileNames": [".github/workflows/*.yaml"],
       "semanticCommitType": "fix"
     },
     {
-      "matchDepNames": ["golangci/golangci-lint", "goreleaser/goreleaser"],
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }
