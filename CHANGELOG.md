@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.10.2](https://github.com/wittdennis/pipelines/compare/ac3d90de4715a76f3843d0bd8a2f969cce881c5e..1.10.2) - 2025-03-03
+#### Bug Fixes
+- **(deps)** update dependency golangci/golangci-lint to v1.64.6 - ([ee04e26](https://github.com/wittdennis/pipelines/commit/ee04e2653530abb973f3b03355089f1cb4d32109)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- **(deps)** update golangci/golangci-lint-action action to v6.5.0 - ([2bde37e](https://github.com/wittdennis/pipelines/commit/2bde37e22a2d0f2eeb1d5b360e9616f6cb71ac1c)) - wittdennis-renovate[bot]
+- **(deps)** update docker/setup-qemu-action action to v3.6.0 - ([51f2522](https://github.com/wittdennis/pipelines/commit/51f25225cbed553b858705f728fcb0a1bc30d2b1)) - wittdennis-renovate[bot]
+- **(deps)** update actions/cache action to v4.2.2 - ([a2cea12](https://github.com/wittdennis/pipelines/commit/a2cea12ad26877a7b24528a2f10dcf2eeea669cc)) - wittdennis-renovate[bot]
+- **(deps)** update ansible/ansible-lint action to v25.1.3 - ([5136515](https://github.com/wittdennis/pipelines/commit/5136515449baee3a924a6a6242c73b5f14f73d28)) - wittdennis-renovate[bot]
+- **(deps)** update actions/upload-artifact action to v4.6.1 - ([d69f97d](https://github.com/wittdennis/pipelines/commit/d69f97d506f506f61e2935913f7765a8498c192c)) - wittdennis-renovate[bot]
+- **(deps)** update actions/download-artifact action to v4.1.9 - ([00423fb](https://github.com/wittdennis/pipelines/commit/00423fb0a9967f22102c816f177bcff08ce3ade1)) - wittdennis-renovate[bot]
+- **(deps)** update actions/cache action to v4.2.1 - ([fec7487](https://github.com/wittdennis/pipelines/commit/fec748709b7b8d2248d1f9647daa7fdb94dcfd5d)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- configure renovate - ([dedcca7](https://github.com/wittdennis/pipelines/commit/dedcca76730005428e2e511057383845ef007c68)) - Dennis Witt
+- configure renovate - ([4b85a2d](https://github.com/wittdennis/pipelines/commit/4b85a2de1c34006d674ddce1b1e80f80b4a12bdd)) - Dennis Witt
+- set renovate commit type to fix - ([ac3d90d](https://github.com/wittdennis/pipelines/commit/ac3d90de4715a76f3843d0bd8a2f969cce881c5e)) - Dennis Witt
+
+- - -
+
 ## [1.10.1](https://github.com/wittdennis/pipelines/compare/247751d6cf25a5aa7ec93322b21f52180f5455a9..1.10.1) - 2025-02-19
 #### Bug Fixes
 - trimpath typo in go build - ([247751d](https://github.com/wittdennis/pipelines/commit/247751d6cf25a5aa7ec93322b21f52180f5455a9)) - Dennis Witt
