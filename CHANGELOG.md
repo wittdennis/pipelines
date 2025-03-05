@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.0](https://github.com/wittdennis/pipelines/compare/cbb2f6bd747ad690d86e84f884e2b7324de910cf..1.11.0) - 2025-03-05
+#### Continuous Integration
+- **(deps)** update terraform-linters/setup-tflint action to v4.1.1 - ([cbb2f6b](https://github.com/wittdennis/pipelines/commit/cbb2f6bd747ad690d86e84f884e2b7324de910cf)) - wittdennis-renovate[bot]
+#### Features
+- add hadolint job - ([fc352e0](https://github.com/wittdennis/pipelines/commit/fc352e07808f408a099f47cb6c5dfcf5cd6fde2c)) - Dennis Witt
+
+- - -
+
 ## [1.10.2](https://github.com/wittdennis/pipelines/compare/ac3d90de4715a76f3843d0bd8a2f969cce881c5e..1.10.2) - 2025-03-03
 #### Bug Fixes
 - **(deps)** update dependency golangci/golangci-lint to v1.64.6 - ([ee04e26](https://github.com/wittdennis/pipelines/commit/ee04e2653530abb973f3b03355089f1cb4d32109)) - wittdennis-renovate[bot]
