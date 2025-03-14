@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.3](https://github.com/wittdennis/pipelines/compare/e07737be819f9ca4a6f3ab6de5989c3723c76c9d..1.11.3) - 2025-03-14
+#### Bug Fixes
+- **(deps)** update dependency goreleaser/goreleaser to v2.8.1 - ([e07737b](https://github.com/wittdennis/pipelines/commit/e07737be819f9ca4a6f3ab6de5989c3723c76c9d)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- **(deps)** update docker/login-action action to v3.4.0 - ([d3ebf38](https://github.com/wittdennis/pipelines/commit/d3ebf38262996eddc30618391523270b082cfb4e)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.2](https://github.com/wittdennis/pipelines/compare/c2a9386dd2df57dd8688d6bf4f64de8c3dd654b3..1.11.2) - 2025-03-13
 #### Bug Fixes
 - **(deps)** update dependency goreleaser/goreleaser to v2.8.0 - ([e7c1473](https://github.com/wittdennis/pipelines/commit/e7c1473a64f3fe2244798a778568f3b6369e1943)) - wittdennis-renovate[bot]
