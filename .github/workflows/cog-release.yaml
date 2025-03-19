@@ -40,7 +40,7 @@ jobs:
 
       - name: bump version
         id: release
-        uses: oknozor/cocogitto-action@v3.10
+        uses: oknozor/cocogitto-action@v3.11
         with:
           release: true
           git-user: github-actions
