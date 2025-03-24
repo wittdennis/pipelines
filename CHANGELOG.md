@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.5](https://github.com/wittdennis/pipelines/compare/20b13a3cb6749f8397e2128ab73fe65c9a702564..1.11.5) - 2025-03-24
+#### Bug Fixes
+- **(deps)** update dependency golangci/golangci-lint to v2 - ([20b13a3](https://github.com/wittdennis/pipelines/commit/20b13a3cb6749f8397e2128ab73fe65c9a702564)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- **(deps)** update actions/download-artifact action to v4.2.1 - ([6a75030](https://github.com/wittdennis/pipelines/commit/6a75030058f2a06e2ed80b638ac8a142778d6778)) - wittdennis-renovate[bot]
+- **(deps)** update actions/setup-go action to v5.4.0 - ([eacd238](https://github.com/wittdennis/pipelines/commit/eacd238f7e9822dc9576469fc480b28f8344eba9)) - wittdennis-renovate[bot]
+- **(deps)** update actions/cache action to v4.2.3 - ([b0dd247](https://github.com/wittdennis/pipelines/commit/b0dd2475742c38c427526160839b3fff5c024552)) - wittdennis-renovate[bot]
+- **(deps)** update actions/upload-artifact action to v4.6.2 - ([dc59df3](https://github.com/wittdennis/pipelines/commit/dc59df360bd60095febbf85c36ebc5c0c45c7be9)) - wittdennis-renovate[bot]
+- **(deps)** update oknozor/cocogitto-action action to v3.11 - ([dc5cd63](https://github.com/wittdennis/pipelines/commit/dc5cd63077c6e8382506201eef7374b89aa2a4a6)) - wittdennis-renovate[bot]
+- **(deps)** update golangci/golangci-lint-action action to v7 - ([10cad2b](https://github.com/wittdennis/pipelines/commit/10cad2bf14edd8ea4983fe366a408109ad9e631f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.4](https://github.com/wittdennis/pipelines/compare/2d7ff374caf01ff32538e1684caa6a8e151f2593..1.11.4) - 2025-03-18
 #### Bug Fixes
 - **(deps)** update dependency golangci/golangci-lint to v1.64.8 - ([d389901](https://github.com/wittdennis/pipelines/commit/d389901bb278f10b8a81c4320e31eca33425a94f)) - wittdennis-renovate[bot]
