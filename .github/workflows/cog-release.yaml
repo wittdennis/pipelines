@@ -32,7 +32,7 @@ jobs:
           git config user.email github-actions@github.com
 
       - name: install goreleaser
-        uses: goreleaser/goreleaser-action@v6.2.1
+        uses: goreleaser/goreleaser-action@v6.3.0
         with:
           install-only: true
           distribution: goreleaser
