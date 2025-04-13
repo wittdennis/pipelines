@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.12](https://github.com/wittdennis/pipelines/compare/7c96b40ccef9d710a661fede11bc8388f655f64f..1.11.12) - 2025-04-13
+#### Bug Fixes
+- **(deps)** update dependency golangci/golangci-lint to v2.1.1 - ([7c96b40](https://github.com/wittdennis/pipelines/commit/7c96b40ccef9d710a661fede11bc8388f655f64f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.11](https://github.com/wittdennis/pipelines/compare/5337dc8c02b268b570917aefd10f89e882c0ca9d..1.11.11) - 2025-04-12
 #### Bug Fixes
 - **(deps)** update dependency golangci/golangci-lint to v2.1.0 - ([5337dc8](https://github.com/wittdennis/pipelines/commit/5337dc8c02b268b570917aefd10f89e882c0ca9d)) - wittdennis-renovate[bot]
