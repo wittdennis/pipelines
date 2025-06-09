@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.21](https://github.com/wittdennis/pipelines/compare/5a808767fa633f62c90c81ed61dda0e8d033cf03..1.11.21) - 2025-06-09
+#### Bug Fixes
+- **(deps)** update dependency goreleaser/goreleaser to v2.10.2 - ([5a80876](https://github.com/wittdennis/pipelines/commit/5a808767fa633f62c90c81ed61dda0e8d033cf03)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.20](https://github.com/wittdennis/pipelines/compare/c01e1a79b3637a087efd1f606f6d41735a3efb15..1.11.20) - 2025-05-26
 #### Bug Fixes
 - **(deps)** update ansible/ansible-lint action to v25.5.0 - ([a768d62](https://github.com/wittdennis/pipelines/commit/a768d6243366edb19a49b13c3250cc61f915cb28)) - wittdennis-renovate[bot]
