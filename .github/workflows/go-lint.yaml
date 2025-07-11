@@ -8,7 +8,7 @@ on:
         description: The Go version to download (if necessary) and use. Supports semver spec and ranges. Be sure to enclose this option in single quotation marks.
         type: string
       golangci-version:
-        default: v2.2.1 # renovate: datasource=github-releases depName=golangci/golangci-lint versioning=semver
+        default: v2.2.2 # renovate: datasource=github-releases depName=golangci/golangci-lint versioning=semver
         description: "Version of golangci-lint to use"
         type: string
       working-directory:
