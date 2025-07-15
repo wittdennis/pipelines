@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.27](https://github.com/wittdennis/pipelines/compare/1dcb0dd68df734068f86e0199d70f4613359bbfb..1.11.27) - 2025-07-15
+#### Bug Fixes
+- **(deps)** update dependency terraform-linters/tflint to v0.58.1 - ([1dcb0dd](https://github.com/wittdennis/pipelines/commit/1dcb0dd68df734068f86e0199d70f4613359bbfb)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.26](https://github.com/wittdennis/pipelines/compare/42caec41e6ca96d7ebebf037e9cb31c3ddd0ab70..1.11.26) - 2025-07-12
 #### Bug Fixes
 - **(deps)** update dependency golangci/golangci-lint to v2.2.2 - ([e5c5758](https://github.com/wittdennis/pipelines/commit/e5c5758afcb9ee194aff3cf089acc23532fa51e4)) - wittdennis-renovate[bot]
