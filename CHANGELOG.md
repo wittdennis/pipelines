@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.32](https://github.com/wittdennis/pipelines/compare/4c5e86c2be85cbd09f6d452889e9b2a858a144a5..1.11.32) - 2025-08-11
+#### Bug Fixes
+- **(deps)** update actions/cache action to v4.2.4 - ([e72a768](https://github.com/wittdennis/pipelines/commit/e72a768bb04f8aae572dfcd2ef27fbaeafc67537)) - wittdennis-renovate[bot]
+- **(deps)** update docker/login-action action to v3.5.0 - ([5d4239f](https://github.com/wittdennis/pipelines/commit/5d4239f3618219439033ed2575c3929d78cd172f)) - wittdennis-renovate[bot]
+- **(deps)** update actions/download-artifact action to v5 - ([4c5e86c](https://github.com/wittdennis/pipelines/commit/4c5e86c2be85cbd09f6d452889e9b2a858a144a5)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.31](https://github.com/wittdennis/pipelines/compare/39e63b8c55db901b69167fe77a8d5d4909d334fb..1.11.31) - 2025-08-03
 #### Bug Fixes
 - **(deps)** update dependency golangci/golangci-lint to v2.3.1 - ([39e63b8](https://github.com/wittdennis/pipelines/commit/39e63b8c55db901b69167fe77a8d5d4909d334fb)) - wittdennis-renovate[bot]
