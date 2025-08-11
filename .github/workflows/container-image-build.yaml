@@ -44,7 +44,7 @@ jobs:
           - platform: linux/arm64
             build-args: ${{ inputs.arm64-build-args }}
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v4.3.0
 
       - name: cache podman storage
         uses: actions/cache@v4.2.4
