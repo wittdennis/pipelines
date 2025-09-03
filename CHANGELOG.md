@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.36](https://github.com/wittdennis/pipelines/compare/3f4792c5ad0a6c96d7736f22c3d51a241dbab107..1.11.36) - 2025-09-03
+#### Bug Fixes
+- **(deps)** update dependency goreleaser/goreleaser to v2.12.0 - ([925fa53](https://github.com/wittdennis/pipelines/commit/925fa53d683d7518619d5ccf9d465bd1fe888240)) - wittdennis-renovate[bot]
+- **(deps)** update hadolint/hadolint-action action to v3.2.0 - ([77e1236](https://github.com/wittdennis/pipelines/commit/77e12365adb414f87cb7c97920992d7cb9c5adf5)) - wittdennis-renovate[bot]
+- **(deps)** update dependency terraform-linters/tflint to v0.59.1 - ([3f4792c](https://github.com/wittdennis/pipelines/commit/3f4792c5ad0a6c96d7736f22c3d51a241dbab107)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.35](https://github.com/wittdennis/pipelines/compare/e75eab71f7294d481ff06ec46511cf148f312984..1.11.35) - 2025-08-25
 #### Bug Fixes
 - **(deps)** update ansible/ansible-lint action to v25.8.2 - ([e75eab7](https://github.com/wittdennis/pipelines/commit/e75eab71f7294d481ff06ec46511cf148f312984)) - wittdennis-renovate[bot]
