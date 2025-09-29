@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.11.42](https://github.com/wittdennis/pipelines/compare/06ddf13468d58b382dddc43de74abbf170a1544e..1.11.42) - 2025-09-29
+#### Bug Fixes
+- **(deps)** update docker/login-action action to v3.6.0 - ([06ddf13](https://github.com/wittdennis/pipelines/commit/06ddf13468d58b382dddc43de74abbf170a1544e)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.41](https://github.com/wittdennis/pipelines/compare/5c8545490e03c89dfc888fd208a8a8a2a39fbbd7..1.11.41) - 2025-09-29
 #### Bug Fixes
 - **(deps)** update actions/cache action to v4.3.0 - ([1762967](https://github.com/wittdennis/pipelines/commit/1762967485c90dce3c98b6e0a48bda0e3f17cf8e)) - wittdennis-renovate[bot]
