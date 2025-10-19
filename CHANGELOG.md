@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.0](https://github.com/wittdennis/pipelines/compare/5c7ede33b443d918b19c8b4cea40bff1c976e59a..1.12.0) - 2025-10-19
+#### Features
+- added possibility to ignore merge and fixup commits for commit checks and release workflow - ([8677e9d](https://github.com/wittdennis/pipelines/commit/8677e9d1123ae5c7c3d91d925813b08fad1fed23)) - Dennis Witt
+#### Bug Fixes
+- (**deps**) update softprops/action-gh-release action to v2.4.1 - ([5c7ede3](https://github.com/wittdennis/pipelines/commit/5c7ede33b443d918b19c8b4cea40bff1c976e59a)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.11.46](https://github.com/wittdennis/pipelines/compare/5be9882c2e82b78c46db13becf333fb67572abd6..1.11.46) - 2025-10-08
 #### Bug Fixes
 - **(deps)** update ansible/ansible-lint action to v25.9.2 - ([5be9882](https://github.com/wittdennis/pipelines/commit/5be9882c2e82b78c46db13becf333fb67572abd6)) - wittdennis-renovate[bot]
