@@ -28,14 +28,22 @@ on:
         required: true
 
 jobs:
+  validate-commits:
+    uses: ./.github/workflows/cog-validate.yaml
+    name: check commits
+    with:
+      check-latest-tag-only: ${{ inputs.check-latest-tag-only }}
+      ignore-merge-commits: ${{ inputs.ignore-merge-commits }}
+      ignore-fixup-commits: ${{ inputs.ignore-fixup-commits }}
+
   release:
     runs-on: ubuntu-24.04
+    needs: validate-commits
     steps:
       - uses: actions/checkout@v5.0.0
         with:
           fetch-depth: 0
           token: ${{ secrets.release-token }}
-
       - name: setup git config
         run: |
           git config user.name github-actions
@@ -48,34 +56,12 @@ jobs:
           distribution: goreleaser
           version: "v2.12.5" # renovate: datasource=github-releases depName=goreleaser/goreleaser versioning=semver
 
-      - run: |
-          ARGS=""
-          if [ "${LATEST_TAG_ONLY}" = "true" ]; then
-            ARGS="${ARGS} --from-latest-tag"
-          fi
-
-          if [ "${IGNORE_MERGE}" = "true" ]; then
-            ARGS="${ARGS} --ignore-merge-commits"
-          fi
-
-          if [ "${IGNORE_FIXUP}" = "true" ]; then
-            ARGS="${ARGS} --ignore-fixup-commits"
-          fi
-
-          echo "args=$ARGS" >> $GITHUB_OUTPUT
-        id: cog-args
-        name: prepare check args
-        env:
-          LATEST_TAG_ONLY: "${{ inputs.check-latest-tag-only }}"
-          IGNORE_MERGE: "${{ inputs.ignore-merge-commits }}"
-          IGNORE_FIXUP: "${{ inputs.ignore-fixup-commits }}"
-
       - name: bump version
         id: release
         uses: cocogitto/cocogitto-action@v4.0.0
         with:
           command: bump
-          args: "--auto ${{ steps.cog-args.outputs.args }}"
+          args: "--auto"
           git-user: github-actions
           git-user-email: github-actions@github.com
 
