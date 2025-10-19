@@ -6,7 +6,17 @@ on:
       check-latest-tag-only:
         required: false
         type: boolean
-        description: Name of the docker image to build
+        description: Only check commits since the latest tag
+        default: false
+      ignore-merge-commits:
+        required: false
+        type: boolean
+        description: Ignore merge commits
+        default: false
+      ignore-fixup-commits:
+        required: false
+        type: boolean
+        description: Ignore fixup commits
         default: false
 
 jobs:
@@ -17,7 +27,30 @@ jobs:
         with:
           fetch-depth: 0
 
+      - run: |
+          ARGS=""
+          if [ "${LATEST_TAG_ONLY}" = "true" ]; then
+            ARGS="${ARGS} --from-latest-tag"
+          fi
+
+          if [ "${IGNORE_MERGE}" = "true" ]; then
+            ARGS="${ARGS} --ignore-merge-commits"
+          fi
+
+          if [ "${IGNORE_FIXUP}" = "true" ]; then
+            ARGS="${ARGS} --ignore-fixup-commits"
+          fi
+
+          echo "args=$ARGS" >> $GITHUB_OUTPUT
+        id: cog-args
+        name: Prepare check args
+        env:
+          LATEST_TAG_ONLY: "${{ inputs.check-latest-tag-only }}"
+          IGNORE_MERGE: "${{ inputs.ignore-merge-commits }}"
+          IGNORE_FIXUP: "${{ inputs.ignore-fixup-commits }}"
+
       - name: Conventional commits check
-        uses: oknozor/cocogitto-action@v3.11
+        uses: cocogitto/cocogitto-action@v4.0.0
         with:
-          check-latest-tag-only: ${{ inputs.check-latest-tag-only }}
+          command: check
+          args: ${{ steps.cog-args.outputs.args }}
