@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.1](https://github.com/wittdennis/pipelines/compare/a33d2bc5495eca497ab698a6b6bfb5037e128bdb..1.12.1) - 2025-10-19
+#### Bug Fixes
+- stop passing unrecognized arguments to version bump command - ([a33d2bc](https://github.com/wittdennis/pipelines/commit/a33d2bc5495eca497ab698a6b6bfb5037e128bdb)) - Dennis Witt
+
+- - -
+
 ## [1.12.0](https://github.com/wittdennis/pipelines/compare/5c7ede33b443d918b19c8b4cea40bff1c976e59a..1.12.0) - 2025-10-19
 #### Features
 - added possibility to ignore merge and fixup commits for commit checks and release workflow - ([8677e9d](https://github.com/wittdennis/pipelines/commit/8677e9d1123ae5c7c3d91d925813b08fad1fed23)) - Dennis Witt
