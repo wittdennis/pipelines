@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.2](https://github.com/wittdennis/pipelines/compare/8f0901cf8f61e324b8dd0ea6c142ce440a401983..1.12.2) - 2025-10-22
+#### Bug Fixes
+- (**deps**) update dependency goreleaser/goreleaser to v2.12.6 - ([8f0901c](https://github.com/wittdennis/pipelines/commit/8f0901cf8f61e324b8dd0ea6c142ce440a401983)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.12.1](https://github.com/wittdennis/pipelines/compare/a33d2bc5495eca497ab698a6b6bfb5037e128bdb..1.12.1) - 2025-10-19
 #### Bug Fixes
 - stop passing unrecognized arguments to version bump command - ([a33d2bc](https://github.com/wittdennis/pipelines/commit/a33d2bc5495eca497ab698a6b6bfb5037e128bdb)) - Dennis Witt
