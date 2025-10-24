@@ -93,7 +93,7 @@ jobs:
             -o /tmp/${{ github.sha }}-${{ env.PODMAN_ARCH }}-oci.tar
 
       - name: Upload digest
-        uses: actions/upload-artifact@v4.6.2
+        uses: actions/upload-artifact@v5.0.0
         if: ${{ inputs.create-artifacts }}
         with:
           name: ${{ github.sha }}-${{ env.PODMAN_ARCH }}
