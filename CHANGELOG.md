@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.5](https://github.com/wittdennis/pipelines/compare/507a1fcd3eaf9ca715b8e3d770e29b723d20ff68..1.12.5) - 2025-11-02
+#### Bug Fixes
+- (**deps**) update cocogitto/cocogitto-action action to v4.1.0 - ([507a1fc](https://github.com/wittdennis/pipelines/commit/507a1fcd3eaf9ca715b8e3d770e29b723d20ff68)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.12.4](https://github.com/wittdennis/pipelines/compare/7139fd319545c4762f9c24da18fe11087a7c5b2c..1.12.4) - 2025-10-31
 #### Bug Fixes
 - (**deps**) update terraform-linters/setup-tflint action to v6.2.1 - ([5afbff3](https://github.com/wittdennis/pipelines/commit/5afbff3c016264a545b7c7b8d178484ab4404ec8)) - wittdennis-renovate[bot]
