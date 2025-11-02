@@ -50,7 +50,7 @@ jobs:
           IGNORE_FIXUP: "${{ inputs.ignore-fixup-commits }}"
 
       - name: Conventional commits check
-        uses: cocogitto/cocogitto-action@v4.0.0
+        uses: cocogitto/cocogitto-action@v4.1.0
         with:
           command: check
           args: ${{ steps.cog-args.outputs.args }}
