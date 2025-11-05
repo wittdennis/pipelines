@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.6](https://github.com/wittdennis/pipelines/compare/28fbc236d1f51fb37bacae196b55df105f9a6059..1.12.6) - 2025-11-05
+#### Bug Fixes
+- (**deps**) update dependency golangci/golangci-lint to v2.6.1 - ([28fbc23](https://github.com/wittdennis/pipelines/commit/28fbc236d1f51fb37bacae196b55df105f9a6059)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.12.5](https://github.com/wittdennis/pipelines/compare/507a1fcd3eaf9ca715b8e3d770e29b723d20ff68..1.12.5) - 2025-11-02
 #### Bug Fixes
 - (**deps**) update cocogitto/cocogitto-action action to v4.1.0 - ([507a1fc](https://github.com/wittdennis/pipelines/commit/507a1fcd3eaf9ca715b8e3d770e29b723d20ff68)) - wittdennis-renovate[bot]
