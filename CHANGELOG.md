@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.8](https://github.com/wittdennis/pipelines/compare/59124106ba9c15985ac3d28caba23debde7d1e3e..1.12.8) - 2025-11-15
+#### Bug Fixes
+- (**deps**) update dependency golangci/golangci-lint to v2.6.2 - ([eab316a](https://github.com/wittdennis/pipelines/commit/eab316a2e19325d6f9ebd801d2c829f358a9a1aa)) - wittdennis-renovate[bot]
+- (**deps**) update ansible/ansible-lint action to v25.11.0 - ([f46cb1e](https://github.com/wittdennis/pipelines/commit/f46cb1e01e5ad3b891426a2a0e6d7acde7ef4bbf)) - wittdennis-renovate[bot]
+- (**deps**) update golangci/golangci-lint-action action to v9 - ([305ce94](https://github.com/wittdennis/pipelines/commit/305ce945615b2628977b35adea990ff79814c63c)) - wittdennis-renovate[bot]
+- (**deps**) update softprops/action-gh-release action to v2.4.2 - ([5912410](https://github.com/wittdennis/pipelines/commit/59124106ba9c15985ac3d28caba23debde7d1e3e)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.12.7](https://github.com/wittdennis/pipelines/compare/a9fc71c19ca04ed357e7910a48f10f9c2ae8735d..1.12.7) - 2025-11-07
 #### Bug Fixes
 - (**deps**) update docker/setup-qemu-action action to v3.7.0 - ([a9fc71c](https://github.com/wittdennis/pipelines/commit/a9fc71c19ca04ed357e7910a48f10f9c2ae8735d)) - wittdennis-renovate[bot]
