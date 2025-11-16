@@ -12,7 +12,7 @@ jobs:
       - name: setup tflint
         uses: terraform-linters/setup-tflint@v6.2.1
         with:
-          tflint_version: "v0.59.1" # renovate: datasource=github-releases depName=terraform-linters/tflint versioning=semver
+          tflint_version: "v0.60.0" # renovate: datasource=github-releases depName=terraform-linters/tflint versioning=semver
 
       - name: lint terraform
         run: |
