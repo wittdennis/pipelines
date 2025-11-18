@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.9](https://github.com/wittdennis/pipelines/compare/529678c57569cba89910d2bee5013ced1930759c..1.12.9) - 2025-11-18
+#### Bug Fixes
+- (**deps**) update dependency golang/go to v1.25.4 - ([684f39c](https://github.com/wittdennis/pipelines/commit/684f39c1e6c1bf60ce133c4bd7917e36b62ea22c)) - wittdennis-renovate[bot]
+- (**deps**) update dependency terraform-linters/tflint to v0.60.0 - ([555bfae](https://github.com/wittdennis/pipelines/commit/555bfaed0188450d61740b693ac6ce2fe2f4cc21)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v5.0.1 - ([529678c](https://github.com/wittdennis/pipelines/commit/529678c57569cba89910d2bee5013ced1930759c)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- reorder renovate comment for go version to test something - ([126409b](https://github.com/wittdennis/pipelines/commit/126409b1765a7dd7dc52e9ca1e6f8809aacafee5)) - Dennis Witt
+
+- - -
+
 ## [1.12.8](https://github.com/wittdennis/pipelines/compare/59124106ba9c15985ac3d28caba23debde7d1e3e..1.12.8) - 2025-11-15
 #### Bug Fixes
 - (**deps**) update dependency golangci/golangci-lint to v2.6.2 - ([eab316a](https://github.com/wittdennis/pipelines/commit/eab316a2e19325d6f9ebd801d2c829f358a9a1aa)) - wittdennis-renovate[bot]
