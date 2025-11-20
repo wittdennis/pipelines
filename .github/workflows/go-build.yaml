@@ -27,7 +27,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6.0.0
 
-      - uses: actions/setup-go@v6.0.0
+      - uses: actions/setup-go@v6.1.0
         with:
           go-version: ${{ inputs.go-version }}
           cache: false
