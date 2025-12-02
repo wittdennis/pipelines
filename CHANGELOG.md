@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.12.10](https://github.com/wittdennis/pipelines/compare/d068053426afbb160b90a742c1fbad1d6e3d435b..1.12.10) - 2025-12-02
+#### Bug Fixes
+- (**deps**) update dependency golang/go to v1.25.5 - ([6bf20a0](https://github.com/wittdennis/pipelines/commit/6bf20a0f435fe499d46d9fffeb28d5b521c41689)) - wittdennis-renovate[bot]
+- (**deps**) update ansible/ansible-lint action to v25.12.0 - ([44ec9b2](https://github.com/wittdennis/pipelines/commit/44ec9b24b46cb4eaef366e01356ce3a3e5405502)) - wittdennis-renovate[bot]
+- (**deps**) update dependency goreleaser/goreleaser to v2.13.0 - ([68544a4](https://github.com/wittdennis/pipelines/commit/68544a48ac7f8259c746cf1e0491c5a3101ca6bd)) - wittdennis-renovate[bot]
+- (**deps**) update softprops/action-gh-release action to v2.5.0 - ([d9b5f04](https://github.com/wittdennis/pipelines/commit/d9b5f0406401236c4a2c1be29a600fc9a10ab16a)) - wittdennis-renovate[bot]
+- (**deps**) update ansible/ansible-lint action to v25.11.1 - ([68a166f](https://github.com/wittdennis/pipelines/commit/68a166f671c9983af570ba965b40d26d4af4c0ab)) - wittdennis-renovate[bot]
+- (**deps**) update actions/setup-go action to v6.1.0 - ([4ff3c40](https://github.com/wittdennis/pipelines/commit/4ff3c405f5a9b1af21fe6b780a1cf087fb731769)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v6 - ([7fc1610](https://github.com/wittdennis/pipelines/commit/7fc16106797522333a657387293e4acdd5d9e339)) - wittdennis-renovate[bot]
+- (**deps**) update golangci/golangci-lint-action action to v9.1.0 - ([d068053](https://github.com/wittdennis/pipelines/commit/d068053426afbb160b90a742c1fbad1d6e3d435b)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.12.9](https://github.com/wittdennis/pipelines/compare/529678c57569cba89910d2bee5013ced1930759c..1.12.9) - 2025-11-18
 #### Bug Fixes
 - (**deps**) update dependency golang/go to v1.25.4 - ([684f39c](https://github.com/wittdennis/pipelines/commit/684f39c1e6c1bf60ce133c4bd7917e36b62ea22c)) - wittdennis-renovate[bot]
