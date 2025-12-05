@@ -22,6 +22,11 @@ on:
         description: Newline-delimited list of path globs for asset files to upload
         type: string
         required: false
+      version:
+        default: "auto"
+        description: Can be used to set a specific version. Use 'auto' for automatic version calculation
+        type: string
+        required: false
     secrets:
       release-token:
         description: The token to use for the github release
@@ -56,12 +61,23 @@ jobs:
           distribution: goreleaser
           version: "v2.13.0" # renovate: datasource=github-releases depName=goreleaser/goreleaser versioning=semver
 
+      - name: set version command args
+        id: args
+        run: |
+          if [ "${VERSION}" = "auto" ]; then
+              echo "args=--auto" >>"$GITHUB_OUTPUT"
+          else
+              echo "args=--version ${VERSION}" >>"$GITHUB_OUTPUT"
+          fi
+        env:
+          VERSION: "${{ inputs.version }}"
+
       - name: bump version
         id: release
         uses: cocogitto/cocogitto-action@v4.1.0
         with:
           command: bump
-          args: "--auto"
+          args: ${{ steps.args.outputs.args }}
           git-user: github-actions
           git-user-email: github-actions@github.com
 
