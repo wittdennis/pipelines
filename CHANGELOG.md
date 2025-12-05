@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.0](https://github.com/wittdennis/pipelines/compare/e56cd70265bf0762c4aa2c11cc9dcc24633904c7..1.13.0) - 2025-12-05
+#### Features
+- add ability to manually set the version for a release - ([659724c](https://github.com/wittdennis/pipelines/commit/659724c82365091112ad9ed187fe5f1f89368271)) - Dennis Witt
+#### Bug Fixes
+- (**deps**) update dependency golangci/golangci-lint to v2.7.1 - ([e56cd70](https://github.com/wittdennis/pipelines/commit/e56cd70265bf0762c4aa2c11cc9dcc24633904c7)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.12.11](https://github.com/wittdennis/pipelines/compare/c0f0999f5e1bdf51b623f7cea8d2b1f331b31987..1.12.11) - 2025-12-04
 #### Bug Fixes
 - (**deps**) update dependency golangci/golangci-lint to v2.7.0 - ([e3ca767](https://github.com/wittdennis/pipelines/commit/e3ca7677d463c2967abc80bdf8e80eff03d30c0c)) - wittdennis-renovate[bot]
