@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.1](https://github.com/wittdennis/pipelines/compare/7be401a01a5fbcc2488eb81c643771b514abe93f..1.13.1) - 2025-12-12
+#### Bug Fixes
+- (**deps**) update actions/cache action to v5 - ([101abb0](https://github.com/wittdennis/pipelines/commit/101abb03b6e6c3fcbfbc344783b897622a32241b)) - wittdennis-renovate[bot]
+- (**deps**) update ansible/ansible-lint action to v25.12.1 - ([21f3e45](https://github.com/wittdennis/pipelines/commit/21f3e450cea14bf10c8130688efa60f5fe778ae2)) - wittdennis-renovate[bot]
+- (**deps**) update dependency golangci/golangci-lint to v2.7.2 - ([93ce99d](https://github.com/wittdennis/pipelines/commit/93ce99d0d1f54385de4155d0eaaacac40e38c94a)) - wittdennis-renovate[bot]
+- (**deps**) update dependency goreleaser/goreleaser to v2.13.1 - ([7be401a](https://github.com/wittdennis/pipelines/commit/7be401a01a5fbcc2488eb81c643771b514abe93f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.0](https://github.com/wittdennis/pipelines/compare/e56cd70265bf0762c4aa2c11cc9dcc24633904c7..1.13.0) - 2025-12-05
 #### Features
 - add ability to manually set the version for a release - ([659724c](https://github.com/wittdennis/pipelines/commit/659724c82365091112ad9ed187fe5f1f89368271)) - Dennis Witt
