@@ -85,7 +85,7 @@ jobs:
           IMAGE_NAME: ${{ inputs.image-name }}
           COMMIT_SHA: ${{ github.sha }}
 
-      - uses: docker/login-action@v3.6.0
+      - uses: docker/login-action@v3.7.0
         name: docker login
         with:
           username: ${{ inputs.registry-username }}
