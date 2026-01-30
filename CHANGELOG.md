@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.6](https://github.com/wittdennis/pipelines/compare/e00c44dfab730ab79137f4650a64b41cec483df8..1.13.6) - 2026-01-30
+#### Bug Fixes
+- (**deps**) update docker/login-action action to v3.7.0 - ([35e13ac](https://github.com/wittdennis/pipelines/commit/35e13ac6049937579deedd948948379b0aa51c88)) - wittdennis-renovate[bot]
+- (**deps**) update actions/cache action to v5.0.3 - ([1f12be2](https://github.com/wittdennis/pipelines/commit/1f12be2ea0b38fc19dad9285e7e2a8f82e53634b)) - wittdennis-renovate[bot]
+- (**deps**) update actions/checkout action to v6.0.2 - ([ba4ad70](https://github.com/wittdennis/pipelines/commit/ba4ad7056006757ddfd609b08ce159423a8c32b2)) - wittdennis-renovate[bot]
+- (**deps**) update actions/cache action to v5.0.2 - ([e00c44d](https://github.com/wittdennis/pipelines/commit/e00c44dfab730ab79137f4650a64b41cec483df8)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.5](https://github.com/wittdennis/pipelines/compare/480d5473a6b4f5ee3a5a8f6d8839ab8444010884..1.13.5) - 2026-01-16
 #### Bug Fixes
 - (**deps**) update ansible/ansible-lint action to v26.1.1 - ([d40f0b4](https://github.com/wittdennis/pipelines/commit/d40f0b4157e172b9e11e372fbfa24c9321fe96bd)) - wittdennis-renovate[bot]
