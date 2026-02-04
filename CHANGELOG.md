@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.7](https://github.com/wittdennis/pipelines/compare/197cc0fcb2631104c2b16525558125575e26650c..1.13.7) - 2026-02-04
+#### Bug Fixes
+- (**deps**) update dependency golang/go to v1.25.7 - ([197cc0f](https://github.com/wittdennis/pipelines/commit/197cc0fcb2631104c2b16525558125575e26650c)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.6](https://github.com/wittdennis/pipelines/compare/e00c44dfab730ab79137f4650a64b41cec483df8..1.13.6) - 2026-01-30
 #### Bug Fixes
 - (**deps**) update docker/login-action action to v3.7.0 - ([35e13ac](https://github.com/wittdennis/pipelines/commit/35e13ac6049937579deedd948948379b0aa51c88)) - wittdennis-renovate[bot]
