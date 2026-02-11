@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.8](https://github.com/wittdennis/pipelines/compare/d89549683a9b027cd4d1d0affec655ed3e2357bb..1.13.8) - 2026-02-11
+#### Bug Fixes
+- (**deps**) update dependency golang/go to v1.26.0 - ([18c5be7](https://github.com/wittdennis/pipelines/commit/18c5be72dc9313bf200f964287711775356daae9)) - wittdennis-renovate[bot]
+- (**deps**) update dependency golangci/golangci-lint to v2.9.0 - ([b4c8741](https://github.com/wittdennis/pipelines/commit/b4c8741e78aa9b20e2057951ea3dfab9e582b1ef)) - wittdennis-renovate[bot]
+- (**deps**) update dependency terraform-linters/tflint to v0.61.0 - ([d895496](https://github.com/wittdennis/pipelines/commit/d89549683a9b027cd4d1d0affec655ed3e2357bb)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.7](https://github.com/wittdennis/pipelines/compare/197cc0fcb2631104c2b16525558125575e26650c..1.13.7) - 2026-02-04
 #### Bug Fixes
 - (**deps**) update dependency golang/go to v1.25.7 - ([197cc0f](https://github.com/wittdennis/pipelines/commit/197cc0fcb2631104c2b16525558125575e26650c)) - wittdennis-renovate[bot]
