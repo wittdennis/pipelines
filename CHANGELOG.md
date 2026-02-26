@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.13](https://github.com/wittdennis/pipelines/compare/1378f983edf62c5eee912177531ef6f2304f8590..1.13.13) - 2026-02-26
+#### Bug Fixes
+- (**deps**) update actions/setup-go action to v6.3.0 - ([1378f98](https://github.com/wittdennis/pipelines/commit/1378f983edf62c5eee912177531ef6f2304f8590)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.12](https://github.com/wittdennis/pipelines/compare/ffd0896c5e8f60037e83a7dca1f87375406bee5f..1.13.12) - 2026-02-25
 #### Bug Fixes
 - (**deps**) update ansible/ansible-lint action to v26.2.0 - ([5a681ae](https://github.com/wittdennis/pipelines/commit/5a681aea1dbcefc54065168993f324b859ceedf1)) - wittdennis-renovate[bot]
