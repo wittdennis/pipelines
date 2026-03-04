@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.14](https://github.com/wittdennis/pipelines/compare/e478d2b6c49db9c611cd66aa0fd4e00949ba3513..1.13.14) - 2026-03-04
+#### Bug Fixes
+- (**deps**) update github artifact actions - ([a26d933](https://github.com/wittdennis/pipelines/commit/a26d933c11403032c9cb7b9f23b2c6cf7698dc87)) - wittdennis-renovate[bot]
+- (**deps**) update cocogitto/cocogitto-action action to v4.2.0 - ([702bd4a](https://github.com/wittdennis/pipelines/commit/702bd4aa84333c0d96681c0599e18b18a4306c07)) - wittdennis-renovate[bot]
+- (**deps**) update docker/login-action action to v4 - ([e3edadf](https://github.com/wittdennis/pipelines/commit/e3edadf81cd62c72c5fc29ec7531bd91b74f84e0)) - wittdennis-renovate[bot]
+- (**deps**) update docker/setup-qemu-action action to v4 - ([e478d2b](https://github.com/wittdennis/pipelines/commit/e478d2b6c49db9c611cd66aa0fd4e00949ba3513)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- fix monorepo settings for cocogitto - ([ecc3973](https://github.com/wittdennis/pipelines/commit/ecc39731f428b08fa090c4bf6d3b462b269c61c7)) - Dennis Witt
+
+- - -
+
 ## [1.13.13](https://github.com/wittdennis/pipelines/compare/1378f983edf62c5eee912177531ef6f2304f8590..1.13.13) - 2026-02-26
 #### Bug Fixes
 - (**deps**) update actions/setup-go action to v6.3.0 - ([1378f98](https://github.com/wittdennis/pipelines/commit/1378f983edf62c5eee912177531ef6f2304f8590)) - wittdennis-renovate[bot]
