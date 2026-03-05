@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.15](https://github.com/wittdennis/pipelines/compare/e8ed33639eae21566e782518aa86a7ba9cfbc0b0..1.13.15) - 2026-03-05
+#### Bug Fixes
+- (**deps**) update docker/metadata-action action to v6 - ([8f1328b](https://github.com/wittdennis/pipelines/commit/8f1328bdf7001f2781fbef893e73594f642cd095)) - wittdennis-renovate[bot]
+- (**deps**) update ansible/ansible-lint action to v26.3.0 - ([e8ed336](https://github.com/wittdennis/pipelines/commit/e8ed33639eae21566e782518aa86a7ba9cfbc0b0)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.14](https://github.com/wittdennis/pipelines/compare/e478d2b6c49db9c611cd66aa0fd4e00949ba3513..1.13.14) - 2026-03-04
 #### Bug Fixes
 - (**deps**) update github artifact actions - ([a26d933](https://github.com/wittdennis/pipelines/commit/a26d933c11403032c9cb7b9f23b2c6cf7698dc87)) - wittdennis-renovate[bot]
