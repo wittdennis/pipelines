@@ -58,7 +58,7 @@ jobs:
           name: ${{ github.sha }}-arm64
           path: /tmp
 
-      - uses: docker/metadata-action@v5
+      - uses: docker/metadata-action@v6
         id: meta
         name: Set image metadata
         with:
