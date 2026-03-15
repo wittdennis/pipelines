@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.13.23](https://github.com/wittdennis/pipelines/compare/b2968ba8e00560fa0c6d8b3fc4c7a850573731e1..1.13.23) - 2026-03-15
+#### Bug Fixes
+- (**deps**) update softprops/action-gh-release action to v2.5.3 - ([b2968ba](https://github.com/wittdennis/pipelines/commit/b2968ba8e00560fa0c6d8b3fc4c7a850573731e1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.13.22](https://github.com/wittdennis/pipelines/compare/6e9454020826e09a6a30465ca145d2196c001be6..1.13.22) - 2026-03-14
 #### Bug Fixes
 - (**deps**) update terraform-linters/setup-tflint action to v6.2.2 - ([6e94540](https://github.com/wittdennis/pipelines/commit/6e9454020826e09a6a30465ca145d2196c001be6)) - wittdennis-renovate[bot]
