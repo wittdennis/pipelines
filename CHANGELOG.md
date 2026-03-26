@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.0](https://github.com/wittdennis/pipelines/compare/2a143f344f56541ba19c5b08a684fd51cd1cc115..2.0.0) - 2026-03-26
+#### Features
+- ![BREAKING](https://img.shields.io/badge/BREAKING-red) allow multi registry container image push - ([2a143f3](https://github.com/wittdennis/pipelines/commit/2a143f344f56541ba19c5b08a684fd51cd1cc115)) - Dennis Witt
+
+- - -
+
 ## [1.13.26](https://github.com/wittdennis/pipelines/compare/39f6fa2a1ba2b5d68054e378a1a4fc7745075fe1..1.13.26) - 2026-03-23
 #### Bug Fixes
 - (**deps**) update dependency golangci/golangci-lint to v2.11.4 - ([39f6fa2](https://github.com/wittdennis/pipelines/commit/39f6fa2a1ba2b5d68054e378a1a4fc7745075fe1)) - wittdennis-renovate[bot]
