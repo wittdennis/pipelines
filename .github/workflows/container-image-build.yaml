@@ -11,7 +11,7 @@ on:
         type: string
         default: docker.io
         description: Name of the docker registry to use
-      registry-username:
+      registry-namespace:
         type: string
         default: denniswitt
         description: Name of the docker registry user to use
@@ -65,7 +65,7 @@ jobs:
         id: meta
         name: Set image metadata
         with:
-          images: ${{ inputs.registry }}/${{ inputs.registry-username }}/${{ inputs.image-name }}
+          images: ${{ inputs.registry }}/${{ inputs.registry-namespace }}/${{ inputs.image-name }}
           tags: |
             type=sha,format=long
           flavor: |
@@ -88,7 +88,7 @@ jobs:
 
       - name: Copy image to file
         run: |
-          podman save ${{ inputs.registry }}/${{ inputs.registry-username }}/${{ inputs.image-name }}:sha-${{ github.sha }}-${{ env.PODMAN_ARCH }} \
+          podman save ${{ inputs.registry }}/${{ inputs.registry-namespace }}/${{ inputs.image-name }}:sha-${{ github.sha }}-${{ env.PODMAN_ARCH }} \
             --format oci-archive \
             -o /tmp/${{ github.sha }}-${{ env.PODMAN_ARCH }}-oci.tar
 
