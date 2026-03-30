@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.1](https://github.com/wittdennis/pipelines/compare/5e914723cb3ca2661b721eaf9d9db3285bc11771..2.0.1) - 2026-03-30
+#### Bug Fixes
+- (**deps**) update actions/setup-go action to v6.4.0 - ([f2fa2c2](https://github.com/wittdennis/pipelines/commit/f2fa2c2eb1192637399e20427f8feb1f7e223b49)) - wittdennis-renovate[bot]
+- (**deps**) update dependency goreleaser/goreleaser to v2.15.0 - ([5e91472](https://github.com/wittdennis/pipelines/commit/5e914723cb3ca2661b721eaf9d9db3285bc11771)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.0](https://github.com/wittdennis/pipelines/compare/2a143f344f56541ba19c5b08a684fd51cd1cc115..2.0.0) - 2026-03-26
 #### Features
 - ![BREAKING](https://img.shields.io/badge/BREAKING-red) allow multi registry container image push - ([2a143f3](https://github.com/wittdennis/pipelines/commit/2a143f344f56541ba19c5b08a684fd51cd1cc115)) - Dennis Witt
