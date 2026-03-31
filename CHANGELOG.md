@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.3](https://github.com/wittdennis/pipelines/compare/bdbc17ac23704c4cd8f146c5aa55775d01cc27a3..2.0.3) - 2026-03-31
+#### Bug Fixes
+- (**deps**) pin dependencies - ([bdbc17a](https://github.com/wittdennis/pipelines/commit/bdbc17ac23704c4cd8f146c5aa55775d01cc27a3)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.2](https://github.com/wittdennis/pipelines/compare/82e853309c63171efeba73adae6192d35fa2309c..2.0.2) - 2026-03-31
 #### Bug Fixes
 - (**deps**) update dependency goreleaser/goreleaser to v2.15.1 - ([82e8533](https://github.com/wittdennis/pipelines/commit/82e853309c63171efeba73adae6192d35fa2309c)) - wittdennis-renovate[bot]
