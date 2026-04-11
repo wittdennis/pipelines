@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.6](https://github.com/wittdennis/pipelines/compare/f34ce0d862dd6af1e34fcfa6a1bff314c91a26e1..2.0.6) - 2026-04-11
+#### Bug Fixes
+- (**deps**) update actions/upload-artifact action to v7.0.1 - ([f34ce0d](https://github.com/wittdennis/pipelines/commit/f34ce0d862dd6af1e34fcfa6a1bff314c91a26e1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.5](https://github.com/wittdennis/pipelines/compare/b7a64beb559ebf55c883ba9ae9e752b9a45716d1..2.0.5) - 2026-04-08
 #### Bug Fixes
 - (**deps**) update dependency golang/go to v1.26.2 - ([da6dff0](https://github.com/wittdennis/pipelines/commit/da6dff0c79e4ce70783b711cb0074e7093514303)) - wittdennis-renovate[bot]
