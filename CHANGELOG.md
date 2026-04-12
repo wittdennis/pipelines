@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.7](https://github.com/wittdennis/pipelines/compare/1c31b45547cea9144419e231afe375dc33d45629..2.0.7) - 2026-04-12
+#### Bug Fixes
+- (**deps**) update softprops/action-gh-release action to v3 - ([1c31b45](https://github.com/wittdennis/pipelines/commit/1c31b45547cea9144419e231afe375dc33d45629)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.6](https://github.com/wittdennis/pipelines/compare/f34ce0d862dd6af1e34fcfa6a1bff314c91a26e1..2.0.6) - 2026-04-11
 #### Bug Fixes
 - (**deps**) update actions/upload-artifact action to v7.0.1 - ([f34ce0d](https://github.com/wittdennis/pipelines/commit/f34ce0d862dd6af1e34fcfa6a1bff314c91a26e1)) - wittdennis-renovate[bot]
