@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.21](https://github.com/wittdennis/pipelines/compare/a7851e13141278a07220c2a3e169d6067a315b5b..2.0.21) - 2026-05-27
+#### Bug Fixes
+- (**deps**) update docker/metadata-action digest to 80c7e94 - ([a7851e1](https://github.com/wittdennis/pipelines/commit/a7851e13141278a07220c2a3e169d6067a315b5b)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.20](https://github.com/wittdennis/pipelines/compare/7f5d6cced24bdeb503cc8e70f4a3fe28b4c0e496..2.0.20) - 2026-05-25
 #### Bug Fixes
 - (**deps**) update dependency goreleaser/goreleaser to v2.16.0 - ([7f5d6cc](https://github.com/wittdennis/pipelines/commit/7f5d6cced24bdeb503cc8e70f4a3fe28b4c0e496)) - wittdennis-renovate[bot]
