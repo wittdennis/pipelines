@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.23](https://github.com/wittdennis/pipelines/compare/b6740146bb1869c8b6d064ea8c845d8ea99de795..2.0.23) - 2026-06-03
+#### Bug Fixes
+- (**deps**) update dependency golang/go to v1.26.4 - ([b674014](https://github.com/wittdennis/pipelines/commit/b6740146bb1869c8b6d064ea8c845d8ea99de795)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.22](https://github.com/wittdennis/pipelines/compare/d7e9a5781304601a76355a0564fa69d01aed6bcc..2.0.22) - 2026-05-27
 #### Bug Fixes
 - (**deps**) update docker/setup-qemu-action action to v4.1.0 - ([d7e9a57](https://github.com/wittdennis/pipelines/commit/d7e9a5781304601a76355a0564fa69d01aed6bcc)) - wittdennis-renovate[bot]
