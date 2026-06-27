@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.29](https://github.com/wittdennis/pipelines/compare/4e87355d33fe46fd87592b3a7764e140313783a1..2.0.29) - 2026-06-27
+#### Bug Fixes
+- (**deps**) update actions/cache action to v6.1.0 - ([4e87355](https://github.com/wittdennis/pipelines/commit/4e87355d33fe46fd87592b3a7764e140313783a1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.28](https://github.com/wittdennis/pipelines/compare/40a27140269dc1da9897d7051bb72936bf5a2701..2.0.28) - 2026-06-24
 #### Bug Fixes
 - (**deps**) update actions/setup-go action to v6.5.0 - ([40a2714](https://github.com/wittdennis/pipelines/commit/40a27140269dc1da9897d7051bb72936bf5a2701)) - wittdennis-renovate[bot]
