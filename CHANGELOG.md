@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.33](https://github.com/wittdennis/pipelines/compare/3f832aab6de3b63c4d6a8c465ba62e9a69055560..2.0.33) - 2026-07-02
+#### Bug Fixes
+- (**deps**) update docker/setup-qemu-action action to v4.2.0 - ([3f832aa](https://github.com/wittdennis/pipelines/commit/3f832aab6de3b63c4d6a8c465ba62e9a69055560)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.32](https://github.com/wittdennis/pipelines/compare/c5f086f69280b767781cba965cce15f5ae080495..2.0.32) - 2026-06-30
 #### Bug Fixes
 - (**deps**) update ansible/ansible-lint action to v26.6.0 - ([c5f086f](https://github.com/wittdennis/pipelines/commit/c5f086f69280b767781cba965cce15f5ae080495)) - wittdennis-renovate[bot]
