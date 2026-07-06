@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.34](https://github.com/wittdennis/pipelines/compare/acd9140e298c4fd221542873da51d9c0ccd80620..2.0.34) - 2026-07-06
+#### Bug Fixes
+- (**deps**) update docker/metadata-action action to v6.2.0 - ([7f64582](https://github.com/wittdennis/pipelines/commit/7f645827266523f150435cac0019b055f1dea212)) - wittdennis-renovate[bot]
+- (**deps**) update dependency goreleaser/goreleaser to v2.17.0 - ([acd9140](https://github.com/wittdennis/pipelines/commit/acd9140e298c4fd221542873da51d9c0ccd80620)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.33](https://github.com/wittdennis/pipelines/compare/3f832aab6de3b63c4d6a8c465ba62e9a69055560..2.0.33) - 2026-07-02
 #### Bug Fixes
 - (**deps**) update docker/setup-qemu-action action to v4.2.0 - ([3f832aa](https://github.com/wittdennis/pipelines/commit/3f832aab6de3b63c4d6a8c465ba62e9a69055560)) - wittdennis-renovate[bot]
