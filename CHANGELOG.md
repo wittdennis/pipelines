@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.36](https://github.com/wittdennis/pipelines/compare/609a0dfe2501543be480b1f63814c2b9797d1e1f..2.0.36) - 2026-07-13
+#### Bug Fixes
+- (**deps**) update softprops/action-gh-release action to v3.0.2 - ([609a0df](https://github.com/wittdennis/pipelines/commit/609a0dfe2501543be480b1f63814c2b9797d1e1f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.35](https://github.com/wittdennis/pipelines/compare/f540962f48a5bf5e7bc3babfce261eec60031c32..2.0.35) - 2026-07-08
 #### Bug Fixes
 - (**deps**) update dependency golang/go to v1.26.5 - ([f540962](https://github.com/wittdennis/pipelines/commit/f540962f48a5bf5e7bc3babfce261eec60031c32)) - wittdennis-renovate[bot]
