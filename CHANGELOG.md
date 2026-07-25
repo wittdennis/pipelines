@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.40](https://github.com/wittdennis/pipelines/compare/bed58e873dc83b1863db210ffbc34598392da1f3..2.0.40) - 2026-07-25
+#### Bug Fixes
+- (**deps**) update redhat-actions/buildah-build action to v3 - ([bed58e8](https://github.com/wittdennis/pipelines/commit/bed58e873dc83b1863db210ffbc34598392da1f3)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.39](https://github.com/wittdennis/pipelines/compare/8cad94e308b104e7305bf2a98ec6f81b60f4f9cd..2.0.39) - 2026-07-22
 #### Bug Fixes
 - (**deps**) update actions/checkout action to v7.0.1 - ([8cad94e](https://github.com/wittdennis/pipelines/commit/8cad94e308b104e7305bf2a98ec6f81b60f4f9cd)) - wittdennis-renovate[bot]
