@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.41](https://github.com/wittdennis/pipelines/compare/1986c25ac316080f2f121b8a4c5c51167234d493..2.0.41) - 2026-07-27
+#### Bug Fixes
+- (**deps**) update dependency goreleaser/goreleaser to v2.17.1 - ([a6c4691](https://github.com/wittdennis/pipelines/commit/a6c46911982e9ca75c093f4a80e4e14f0cddd6eb)) - wittdennis-renovate[bot]
+- (**deps**) update redhat-actions/buildah-build action to v3.0.2 - ([1986c25](https://github.com/wittdennis/pipelines/commit/1986c25ac316080f2f121b8a4c5c51167234d493)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.40](https://github.com/wittdennis/pipelines/compare/bed58e873dc83b1863db210ffbc34598392da1f3..2.0.40) - 2026-07-25
 #### Bug Fixes
 - (**deps**) update redhat-actions/buildah-build action to v3 - ([bed58e8](https://github.com/wittdennis/pipelines/commit/bed58e873dc83b1863db210ffbc34598392da1f3)) - wittdennis-renovate[bot]
