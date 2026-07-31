@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.42](https://github.com/wittdennis/pipelines/compare/875d91d1060ad67681ca74540bc9909289942754..2.0.42) - 2026-07-31
+#### Bug Fixes
+- (**deps**) update hadolint/hadolint-action action to v3.4.0 - ([875d91d](https://github.com/wittdennis/pipelines/commit/875d91d1060ad67681ca74540bc9909289942754)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.41](https://github.com/wittdennis/pipelines/compare/1986c25ac316080f2f121b8a4c5c51167234d493..2.0.41) - 2026-07-27
 #### Bug Fixes
 - (**deps**) update dependency goreleaser/goreleaser to v2.17.1 - ([a6c4691](https://github.com/wittdennis/pipelines/commit/a6c46911982e9ca75c093f4a80e4e14f0cddd6eb)) - wittdennis-renovate[bot]
