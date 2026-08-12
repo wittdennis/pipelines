@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.43](https://github.com/wittdennis/pipelines/compare/fdd1955eb7c6631c069f142a7d7a2cbfe5689034..2.0.43) - 2026-08-12
+#### Bug Fixes
+- (**deps**) update ansible/ansible-lint action to v26.8.0 - ([fdd1955](https://github.com/wittdennis/pipelines/commit/fdd1955eb7c6631c069f142a7d7a2cbfe5689034)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.42](https://github.com/wittdennis/pipelines/compare/875d91d1060ad67681ca74540bc9909289942754..2.0.42) - 2026-07-31
 #### Bug Fixes
 - (**deps**) update hadolint/hadolint-action action to v3.4.0 - ([875d91d](https://github.com/wittdennis/pipelines/commit/875d91d1060ad67681ca74540bc9909289942754)) - wittdennis-renovate[bot]
