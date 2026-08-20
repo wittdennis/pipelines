@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.45](https://github.com/wittdennis/pipelines/compare/4370230d52bcbea654949b24771d9fc0e7772f2f..2.0.45) - 2026-08-20
+#### Bug Fixes
+- (**deps**) update dependency golang/go to v1.27.0 - ([a62cb2e](https://github.com/wittdennis/pipelines/commit/a62cb2e2326c433d3f1b6206b032e286b0340381)) - wittdennis-renovate[bot]
+- (**deps**) update dependency golangci/golangci-lint to v2.13.0 - ([4370230](https://github.com/wittdennis/pipelines/commit/4370230d52bcbea654949b24771d9fc0e7772f2f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.44](https://github.com/wittdennis/pipelines/compare/dc3006919e6bd5eaea86a98830e06b24f8621abf..2.0.44) - 2026-08-15
 #### Bug Fixes
 - (**deps**) update dependency golang/go to v1.26.6 - ([dc30069](https://github.com/wittdennis/pipelines/commit/dc3006919e6bd5eaea86a98830e06b24f8621abf)) - wittdennis-renovate[bot]
