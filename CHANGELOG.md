@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.49](https://github.com/wittdennis/pipelines/compare/426d668a6fb5896f1ef4e67fa10484e6820b206f..2.0.49) - 2026-08-29
+#### Bug Fixes
+- (**deps**) update dependency golangci/golangci-lint to v2.13.2 - ([426d668](https://github.com/wittdennis/pipelines/commit/426d668a6fb5896f1ef4e67fa10484e6820b206f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.48](https://github.com/wittdennis/pipelines/compare/f540238b86d9c4ead199e0151d664104eea7f7d1..2.0.48) - 2026-08-24
 #### Bug Fixes
 - (**deps**) update hadolint/hadolint-action action to v3.5.0 - ([f540238](https://github.com/wittdennis/pipelines/commit/f540238b86d9c4ead199e0151d664104eea7f7d1)) - wittdennis-renovate[bot]
