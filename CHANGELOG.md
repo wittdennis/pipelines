@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.51](https://github.com/wittdennis/pipelines/compare/d6dc05c2a63f48b6a2094b376d307dcc44c33774..2.0.51) - 2026-09-02
+#### Bug Fixes
+- (**deps**) update docker/setup-qemu-action action to v4.3.0 - ([d6dc05c](https://github.com/wittdennis/pipelines/commit/d6dc05c2a63f48b6a2094b376d307dcc44c33774)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.50](https://github.com/wittdennis/pipelines/compare/a779a3330ebfa46d7db8da93e212659bc4eb6e87..2.0.50) - 2026-08-31
 #### Bug Fixes
 - (**deps**) update softprops/action-gh-release action to v3.0.3 - ([a779a33](https://github.com/wittdennis/pipelines/commit/a779a3330ebfa46d7db8da93e212659bc4eb6e87)) - wittdennis-renovate[bot]
