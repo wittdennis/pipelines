@@ -43,9 +43,12 @@ on:
         description: |
           Newline-separated list of passwords/tokens, one per registry (same order as registries).
 
+permissions:
+  contents: read
+
 jobs:
   build:
-    uses: ./.github/workflows/container-image-build.yaml
+    uses: $/.github/workflows/container-image-build.yaml
     with:
       image-name: ${{ inputs.image-name }}
       create-artifacts: true

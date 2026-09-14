@@ -2,8 +2,11 @@ name: self-validate-conventional-commits
 
 on: [push]
 
+permissions:
+  contents: read
+
 jobs:
   check:
-    uses: ./.github/workflows/cog-validate.yaml
+    uses: $/.github/workflows/cog-validate.yaml
     with:
       check-latest-tag-only: false
