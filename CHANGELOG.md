@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.54](https://github.com/wittdennis/pipelines/compare/da1a65f91d743636e9669a47ec211ac447118402..2.0.54) - 2026-09-14
+#### Bug Fixes
+- security audit - ([da1a65f](https://github.com/wittdennis/pipelines/commit/da1a65f91d743636e9669a47ec211ac447118402)) - Dennis Witt
+
+- - -
+
 ## [2.0.53](https://github.com/wittdennis/pipelines/compare/58801d8fdf726519330ba31e453bd41303d89a0d..2.0.53) - 2026-09-08
 #### Bug Fixes
 - (**deps**) update terraform-linters/setup-tflint action to v6.3.1 - ([972a9f9](https://github.com/wittdennis/pipelines/commit/972a9f9e474383c87affadb16a3c880f24eff842)) - wittdennis-renovate[bot]
