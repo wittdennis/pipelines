@@ -45,6 +45,8 @@ jobs:
             build-args: ${{ inputs.arm64-build-args }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: cache podman storage
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
@@ -88,9 +90,13 @@ jobs:
 
       - name: Copy image to file
         run: |
-          podman save ${{ inputs.registry }}/${{ inputs.registry-namespace }}/${{ inputs.image-name }}:sha-${{ github.sha }}-${{ env.PODMAN_ARCH }} \
+          podman save "${REGISTRY}/${REGISTRY_NAMESPACE}/${IMAGE_NAME}:sha-${GITHUB_SHA}-${PODMAN_ARCH}" \
             --format oci-archive \
-            -o /tmp/${{ github.sha }}-${{ env.PODMAN_ARCH }}-oci.tar
+            -o "/tmp/${GITHUB_SHA}-${PODMAN_ARCH}-oci.tar"
+        env:
+          REGISTRY: ${{ inputs.registry }}
+          REGISTRY_NAMESPACE: ${{ inputs.registry-namespace }}
+          IMAGE_NAME: ${{ inputs.image-name }}
 
       - name: Upload digest
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
