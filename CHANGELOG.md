@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.55](https://github.com/wittdennis/pipelines/compare/3b0139ebee3a27e94b80d8937cad9e8774bf3dd9..2.0.55) - 2026-09-16
+#### Bug Fixes
+- (**deps**) update docker/setup-qemu-action action to v4.4.0 - ([3b0139e](https://github.com/wittdennis/pipelines/commit/3b0139ebee3a27e94b80d8937cad9e8774bf3dd9)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.54](https://github.com/wittdennis/pipelines/compare/da1a65f91d743636e9669a47ec211ac447118402..2.0.54) - 2026-09-14
 #### Bug Fixes
 - security audit - ([da1a65f](https://github.com/wittdennis/pipelines/commit/da1a65f91d743636e9669a47ec211ac447118402)) - Dennis Witt
