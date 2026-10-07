@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.61](https://github.com/wittdennis/pipelines/compare/d8160b5c7080a35483f7f96b2dce6b4e038c3944..2.0.61) - 2026-10-07
+#### Bug Fixes
+- (**deps**) update actions/download-artifact action to v8.0.2 - ([73ff37d](https://github.com/wittdennis/pipelines/commit/73ff37de687ec5c1f307d2f970055d0336ff2327)) - wittdennis-renovate[bot]
+- (**deps**) update actions/upload-artifact action to v7.0.2 - ([d8160b5](https://github.com/wittdennis/pipelines/commit/d8160b5c7080a35483f7f96b2dce6b4e038c3944)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.60](https://github.com/wittdennis/pipelines/compare/f833ae2f4e01153382801432fa84524df026e973..2.0.60) - 2026-09-30
 #### Bug Fixes
 - (**deps**) update terraform-linters/setup-tflint action to v6.3.2 - ([f833ae2](https://github.com/wittdennis/pipelines/commit/f833ae2f4e01153382801432fa84524df026e973)) - wittdennis-renovate[bot]
