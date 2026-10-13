@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.64](https://github.com/wittdennis/pipelines/compare/64e06bdd405fef60e829ecff7cc5c0c0725ecbc3..2.0.64) - 2026-10-13
+#### Bug Fixes
+- (**deps**) update ansible/ansible-lint action to v26.10.1 - ([64e06bd](https://github.com/wittdennis/pipelines/commit/64e06bdd405fef60e829ecff7cc5c0c0725ecbc3)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.63](https://github.com/wittdennis/pipelines/compare/839dcf455291d45aba23cce97ddc84ef8f80e44b..2.0.63) - 2026-10-13
 #### Bug Fixes
 - (**deps**) update ansible/ansible-lint action to v26.10.0 - ([b830562](https://github.com/wittdennis/pipelines/commit/b8305620bdc7065650a1b88c6c3f1abb19554be1)) - wittdennis-renovate[bot]
