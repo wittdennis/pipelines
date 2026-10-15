@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.65](https://github.com/wittdennis/pipelines/compare/9430ec5a2ec3a89264d32deab509575826ef24fa..2.0.65) - 2026-10-15
+#### Bug Fixes
+- (**deps**) update dependency zizmor to v1.31.0 - ([9430ec5](https://github.com/wittdennis/pipelines/commit/9430ec5a2ec3a89264d32deab509575826ef24fa)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.64](https://github.com/wittdennis/pipelines/compare/64e06bdd405fef60e829ecff7cc5c0c0725ecbc3..2.0.64) - 2026-10-13
 #### Bug Fixes
 - (**deps**) update ansible/ansible-lint action to v26.10.1 - ([64e06bd](https://github.com/wittdennis/pipelines/commit/64e06bdd405fef60e829ecff7cc5c0c0725ecbc3)) - wittdennis-renovate[bot]
