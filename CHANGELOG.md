@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.66](https://github.com/wittdennis/pipelines/compare/4c887c4273b25d15ff4dc495d1ee67c7a1e360da..2.0.66) - 2026-10-16
+#### Bug Fixes
+- (**deps**) update dependency zizmor to v1.31.1 - ([4c887c4](https://github.com/wittdennis/pipelines/commit/4c887c4273b25d15ff4dc495d1ee67c7a1e360da)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.65](https://github.com/wittdennis/pipelines/compare/9430ec5a2ec3a89264d32deab509575826ef24fa..2.0.65) - 2026-10-15
 #### Bug Fixes
 - (**deps**) update dependency zizmor to v1.31.0 - ([9430ec5](https://github.com/wittdennis/pipelines/commit/9430ec5a2ec3a89264d32deab509575826ef24fa)) - wittdennis-renovate[bot]
