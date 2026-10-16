@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.67](https://github.com/wittdennis/pipelines/compare/028dcfa3dc20d585a0334a0bad5705a305139a83..2.0.67) - 2026-10-16
+#### Bug Fixes
+- (**deps**) update dependency golangci/golangci-lint to v2.15.0 - ([028dcfa](https://github.com/wittdennis/pipelines/commit/028dcfa3dc20d585a0334a0bad5705a305139a83)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.66](https://github.com/wittdennis/pipelines/compare/4c887c4273b25d15ff4dc495d1ee67c7a1e360da..2.0.66) - 2026-10-16
 #### Bug Fixes
 - (**deps**) update dependency zizmor to v1.31.1 - ([4c887c4](https://github.com/wittdennis/pipelines/commit/4c887c4273b25d15ff4dc495d1ee67c7a1e360da)) - wittdennis-renovate[bot]
