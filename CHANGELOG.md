@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.69](https://github.com/wittdennis/pipelines/compare/6d21accf919d7b8e3083a8f60a98e86435a5e9f1..2.0.69) - 2026-11-05
+#### Bug Fixes
+- (**deps**) update dependency goreleaser/goreleaser to v2.20.0 - ([ea80f1b](https://github.com/wittdennis/pipelines/commit/ea80f1b6589f822f841c3db4391cb536068c9311)) - wittdennis-renovate[bot]
+- (**deps**) update dependency zizmor to v1.32.0 - ([c5b3c49](https://github.com/wittdennis/pipelines/commit/c5b3c499f452fdd72d221256f2337dfd6f6f3d6b)) - wittdennis-renovate[bot]
+- (**deps**) update dependency tflint to v0.65.0 - ([8423bef](https://github.com/wittdennis/pipelines/commit/8423bef227f49de1c5122af75fba49eafcb3b348)) - wittdennis-renovate[bot]
+- (**deps**) update dependency goreleaser/goreleaser to v2.19.0 - ([6d21acc](https://github.com/wittdennis/pipelines/commit/6d21accf919d7b8e3083a8f60a98e86435a5e9f1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.68](https://github.com/wittdennis/pipelines/compare/12fa7591ee3804af9638aef4e91155ef7cdc7788..2.0.68) - 2026-10-20
 #### Bug Fixes
 - (**deps**) update dependency golang/go to v1.27.3 - ([12fa759](https://github.com/wittdennis/pipelines/commit/12fa7591ee3804af9638aef4e91155ef7cdc7788)) - wittdennis-renovate[bot]
