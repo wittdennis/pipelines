@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.71](https://github.com/wittdennis/pipelines/compare/b38e1d2183e218074356838d5adb8b0e516d66b2..2.0.71) - 2026-11-09
+#### Bug Fixes
+- (**deps**) update dependency terraform-linters/tflint to v0.66.0 - ([b38e1d2](https://github.com/wittdennis/pipelines/commit/b38e1d2183e218074356838d5adb8b0e516d66b2)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.70](https://github.com/wittdennis/pipelines/compare/9a9a1fbd4e7bbc90612f2a9c8cc07e5769251004..2.0.70) - 2026-11-05
 #### Bug Fixes
 - (**deps**) update ansible/ansible-lint action to v26.11.0 - ([b547cde](https://github.com/wittdennis/pipelines/commit/b547cdec140fb49e25f40c9f7892b33501b977e8)) - wittdennis-renovate[bot]
