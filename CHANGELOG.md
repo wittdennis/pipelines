@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.74](https://github.com/wittdennis/pipelines/compare/2df10f59161d0246a25df04761f83a2f42901db7..2.0.74) - 2026-11-15
+#### Bug Fixes
+- (**container-image-build**) do not inherit base image annotations - ([2df10f5](https://github.com/wittdennis/pipelines/commit/2df10f59161d0246a25df04761f83a2f42901db7)) - Dennis Witt, Claude Opus 5.5
+- (**deps**) update dependency goreleaser/goreleaser to v2.20.2 - ([62fdcba](https://github.com/wittdennis/pipelines/commit/62fdcbac2c3386d497351a0654a293c6737ea1cb)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.73](https://github.com/wittdennis/pipelines/compare/387f881e3aa2016d0084629c08d6a65b8ccd40f4..2.0.73) - 2026-11-11
 #### Bug Fixes
 - (**deps**) update dependency goreleaser/goreleaser to v2.20.1 - ([387f881](https://github.com/wittdennis/pipelines/commit/387f881e3aa2016d0084629c08d6a65b8ccd40f4)) - wittdennis-renovate[bot]
