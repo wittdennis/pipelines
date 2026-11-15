@@ -84,6 +84,8 @@ jobs:
             ${{ matrix.build-args }}
             ${{ inputs.build-args }}
           oci: true
+          # base image manifest annotations take precedence over config labels for tools like renovate
+          extra-args: --inherit-annotations=false
           containerfiles: |
             ./Dockerfile
           platforms: ${{ matrix.platform }}
