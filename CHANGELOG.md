@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.75](https://github.com/wittdennis/pipelines/compare/1bbacad5484a88bd0b486a4aa2ff75e0bde20a4f..2.0.75) - 2026-11-18
+#### Bug Fixes
+- (**deps**) update actions/setup-go action to v7.1.0 - ([1bbacad](https://github.com/wittdennis/pipelines/commit/1bbacad5484a88bd0b486a4aa2ff75e0bde20a4f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.74](https://github.com/wittdennis/pipelines/compare/2df10f59161d0246a25df04761f83a2f42901db7..2.0.74) - 2026-11-15
 #### Bug Fixes
 - (**container-image-build**) do not inherit base image annotations - ([2df10f5](https://github.com/wittdennis/pipelines/commit/2df10f59161d0246a25df04761f83a2f42901db7)) - Dennis Witt, Claude Opus 5.5
