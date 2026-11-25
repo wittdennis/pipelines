@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.76](https://github.com/wittdennis/pipelines/compare/8b6894ff15980fd60fe750a122560b07a8841f4c..2.0.76) - 2026-11-25
+#### Bug Fixes
+- (**deps**) update ansible/ansible-lint action to v26.11.1 - ([611b4c9](https://github.com/wittdennis/pipelines/commit/611b4c9fd81c01fdc4c81032c04e6095e76a3ee0)) - wittdennis-renovate[bot]
+- (**deps**) update dependency zizmor to v1.33.1 - ([1042866](https://github.com/wittdennis/pipelines/commit/104286602696788957a98851107d56431e1d6e54)) - wittdennis-renovate[bot]
+- (**deps**) update dependency goreleaser/goreleaser to v2.20.3 - ([8b6894f](https://github.com/wittdennis/pipelines/commit/8b6894ff15980fd60fe750a122560b07a8841f4c)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.75](https://github.com/wittdennis/pipelines/compare/1bbacad5484a88bd0b486a4aa2ff75e0bde20a4f..2.0.75) - 2026-11-18
 #### Bug Fixes
 - (**deps**) update actions/setup-go action to v7.1.0 - ([1bbacad](https://github.com/wittdennis/pipelines/commit/1bbacad5484a88bd0b486a4aa2ff75e0bde20a4f)) - wittdennis-renovate[bot]
